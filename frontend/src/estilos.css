@@ -1,0 +1,11 @@
+/* Estilos de la demo. No tienen nada que ver con el login: podés ignorarlos. */
+body { margin: 0; font-family: system-ui, sans-serif; background: #0f1222; color: #eef; }
+main { max-width: 720px; margin: 0 auto; padding: 24px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+h1 { margin: 0; }
+button { font: inherit; padding: 6px 12px; border-radius: 8px; border: 0; background: #61dafb; color: #04121a; cursor: pointer; }
+.cartelera { list-style: none; padding: 0; }
+.cartelera li { display: flex; gap: 12px; align-items: center; background: #1a1f38; padding: 12px 14px; border-radius: 10px; margin: 8px 0; }
+.cartelera span { color: #a3abc4; flex: 1; }
+.error { background: #3a1520; border: 1px solid #fb7185; padding: 10px 14px; border-radius: 10px; }
+.aviso { color: #fbbf24; }

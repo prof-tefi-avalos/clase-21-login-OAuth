@@ -1,0 +1,8 @@
+# Dependencias: se reinstalan con npm install
+node_modules
+
+# Variables de entorno reales: NUNCA se suben (usá .env.example como guía)
+.env
+
+# Build del front (lo genera Vercel en cada deploy)
+dist
